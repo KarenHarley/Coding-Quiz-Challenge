@@ -38,12 +38,9 @@ function quizTime() {
     timeLeft--;
     quizTimerCount.textContent = "Time Left: " + timeLeft + " seconds";
 
-    if (timeLeft <= 0 || currentQuestionIndex + 1 === questions.length) {
+    if (timeLeft <= 0 || currentQuestionIndex + 1 == questions.length) {
       clearInterval(quizTimer);
       quizOver();
-    }
-    if (timeLeft <= 0) {
-      quizTimerCount.textContent = "Out of time"; //this is temp
     }
   }, 1000);
 }
@@ -97,8 +94,10 @@ function quizOver() {
   var quizOverText = document.createElement("h1");
   quizOverText.classList.add("quizOver");
   quizOverText.classList.add("quizOverText");
+  var divForForm = document.createElement("div");
+  divForForm.classList.add("divForm")
   var score = document.createElement("p");
-  var initalsForm = document.createElement("form"); //what is form for?
+  var initalsForm = document.createElement("p"); //what is form for?
   initalsForm.classList.add("quizOver");
   initalsForm.classList.add("purpleText");
   var enterInitals = document.createElement("input");
@@ -120,17 +119,17 @@ function quizOver() {
   //appended
   gameOverArea.appendChild(quizOverText);
   gameOverArea.appendChild(score);
+
   gameOverArea.appendChild(initalsForm);
-  gameOverArea.appendChild(enterInitals);
-  gameOverArea.appendChild(submitInitals); //here try to append the text
+  gameOverArea.appendChild(divForForm);
+  divForForm.appendChild(enterInitals);
+  divForForm.appendChild(submitInitals); //here try to append the text
 
   gameOverArea.appendChild(backButton);
   //enterInitals.appendChild(submitInitals)
 
   // if imput is submitted we want to call the scoreFunction
   submitInitals.addEventListener("click", function (event) {
-    console.log("clicked button submit");
-    console.log(event);
     event.preventDefault();
 
     //then need to append it
