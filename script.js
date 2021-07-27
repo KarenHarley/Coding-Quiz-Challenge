@@ -38,7 +38,7 @@ function quizTime() {
     timeLeft--;
     quizTimerCount.textContent = "Time Left: " + timeLeft + " seconds";
 
-    if (timeLeft <= 0 || currentQuestionIndex + 1 == questions.length) {
+    if (timeLeft <= 0 || currentQuestionIndex == questions.length) {
       clearInterval(quizTimer);
       quizOver();
     }
@@ -95,7 +95,7 @@ function quizOver() {
   quizOverText.classList.add("quizOver");
   quizOverText.classList.add("quizOverText");
   var divForForm = document.createElement("div");
-  divForForm.classList.add("divForm")
+  divForForm.classList.add("divForm");
   var score = document.createElement("p");
   var initalsForm = document.createElement("p"); //what is form for?
   initalsForm.classList.add("quizOver");
