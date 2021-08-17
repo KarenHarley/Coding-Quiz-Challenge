@@ -27,7 +27,7 @@ Test your basic knowledge of JavaScript with this quiz!
 2. CSS
 3. HTML
 
-### Links
+# Links:
 
 #### Github
 
