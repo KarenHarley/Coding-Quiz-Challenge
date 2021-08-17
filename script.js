@@ -221,11 +221,4 @@ var questions = [
   },
 ];
 
-//function highScores() {}
-/*
 
-
- if (answers.correct) {
-      console.log("correct");
-    }
-*/
