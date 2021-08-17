@@ -1,11 +1,3 @@
-//things to do
-//fix buttons look
-//if they finish the questions there needs to be something to call the functionquizOver
-//is there a way to append button to input
-//do i need the form if so how to append
-//the name is scoreAndName doesnt show
-//if questions are done then call the quiz over function
-
 var startButton = document.querySelector("#start-button");
 var quizTimerCount = document.querySelector("#quiz-timer");
 var quizQuestions = document.querySelector("#quizQuestions");
@@ -16,7 +8,7 @@ var answerButtons = document.getElementById("multiple-choice-answers"); // or bt
 var gameOverArea = document.getElementById("quizResult");
 var inputFromUser = document.querySelector("inputFromUser"); //for the user input
 
-var timeLeft = 75; //make it 75
+var timeLeft = 75;
 var currentQuestionIndex = 0; // current question
 var correctUserAnswers = 0;
 var wrongUserAnswers = 0;
@@ -46,7 +38,13 @@ function quizTime() {
 }
 
 function setNextQuestion() {
-  showQuestion(questions[currentQuestionIndex]); //we are setting the value of question
+  //we are setting the value of question
+
+  if (currentQuestionIndex < questions.length) {
+    showQuestion(questions[currentQuestionIndex]);
+  } else {
+    return;
+  }
 }
 
 function showQuestion(question) {
@@ -106,8 +104,6 @@ function quizOver() {
   enterInitals.classList.add("inputFromUser");
   var submitInitals = document.createElement("button");
   submitInitals.classList.add("quizOver");
-  var backButton = document.createElement("button");
-  backButton.classList.add("btnEnd");
   submitInitals.classList.add("btnEnd");
   //added text
   quizOverText.textContent = "Quiz is over";
@@ -115,7 +111,7 @@ function quizOver() {
     "Incorrect: " + wrongUserAnswers + " Correct: " + correctUserAnswers;
   initalsForm.textContent = "Add Initals";
   submitInitals.textContent = "Submit";
-  backButton.textContent = "Go back";
+
   //appended
   gameOverArea.appendChild(quizOverText);
   gameOverArea.appendChild(score);
@@ -125,7 +121,6 @@ function quizOver() {
   divForForm.appendChild(enterInitals);
   divForForm.appendChild(submitInitals); //here try to append the text
 
-  gameOverArea.appendChild(backButton);
   //enterInitals.appendChild(submitInitals)
 
   // if imput is submitted we want to call the scoreFunction
@@ -134,15 +129,35 @@ function quizOver() {
 
     //then need to append it
     var inputFromUser = document.querySelector(".inputFromUser").value;
+    var StoredNameAndScore =
+      JSON.parse(localStorage.getItem("UserInitals")) || [];
 
-    localStorage.setItem("UserInitals", inputFromUser);
-    var UserInputInitals = localStorage.getItem("UserInitals");
+    var currentNameAndScore = {
+      name: inputFromUser,
+      score: correctUserAnswers + "/" + questions.length,
+    };
 
-    if (inputFromUser === "") {
-      console.log("Empty");
-      return;
-    }
+    StoredNameAndScore.push(currentNameAndScore); //adding the initials and score
 
+    //localStorage.setItem("UserInitals", StoredNameAndScore);
+    localStorage.setItem("UserInitals", JSON.stringify(StoredNameAndScore));
+    console.log(StoredNameAndScore);
+    window.location.href = "highScores.html";
+
+    //put go back button to highScore.html
+    //add another js file
+    //1. get user initals for local storage (array)
+    //2. from what you get build what i did in creating a initals score
+    //tip:do a for loop (because its an array)
+    //3. move that go back btn to other js file
+    //4. clean localStorage
+
+    //not sure i should keep this
+    //if (inputFromUser === "") {
+    //  console.log("Empty");
+    //  return;
+    // }
+    /*
     var scoreAndName = document.createElement("h4");
     scoreAndName.classList.add("quizOver");
     scoreAndName.classList.add("purpleText");
@@ -158,12 +173,7 @@ function quizOver() {
     var UserScoreAndName = localStorage.setItem("scoreAndName", scoreAndName);
 
     console.log(localStorage.getItem(UserScoreAndName));
-  });
-  backButton.addEventListener("click", function () {
-    console.log("clicked on back button");
-    gameOverArea.classList.add("hide");
-    intro.classList.remove("hide");
-    window.location.reload(); //to reset everything in terms of the visual part
+    */
   });
 }
 
@@ -234,12 +244,11 @@ var questions = [
   {
     question: "Is JavaScript related to Java?",
     answers: [
-      { text: "False", correct: false },
-      { text: "True", correct: true },
+      { text: "False", correct: true },
+      { text: "True", correct: false },
     ],
   },
 ];
-console.log(questions[1]);
 
 //function highScores() {}
 /*
