@@ -1,9 +1,5 @@
 highScoreArea = document.querySelector("#highScores");
-//real array
-//var UserArray = localStorage.getItem("UserInitals");
 
-//console.log(UserArray);
-//array to test...
 var UserArray = ["HI", "byt"];
 console.log(localStorage.getItem("UserInitals"));
 var UserArray = JSON.parse(localStorage.getItem("UserInitals"));
