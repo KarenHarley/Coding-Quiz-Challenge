@@ -21,12 +21,23 @@ Test your basic knowledge of JavaScript with this quiz!
 4. Try again
    Not happy with your score? Click the Go Back button and try again!
 
+# Technologies used
+
+1. JavaScript
+2. CSS
+3. HTML
+
 ### Links
 
 #### Github
 
-https://github.com/KarenHarley/04-Homework
+https://github.com/KarenHarley/Coding-Quiz-Challenge
 
 #### Website
 
-https://karenharley.github.io/04-Homework/
+https://karenharley.github.io/Coding-Quiz-Challenge/
+
+## Contact Info 
+
+karen.pretzel.365@gmail.com
+
