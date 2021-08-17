@@ -4,7 +4,7 @@ var quizQuestions = document.querySelector("#quizQuestions");
 var intro = document.querySelector("#intro");
 var quizQuestionsArea = document.querySelector("#question-container");
 var questionElement = document.getElementById("quizQuestions");
-var answerButtons = document.getElementById("multiple-choice-answers"); // or btn??
+var answerButtons = document.getElementById("multiple-choice-answers"); 
 var gameOverArea = document.getElementById("quizResult");
 var inputFromUser = document.querySelector("inputFromUser"); //for the user input
 
@@ -119,7 +119,7 @@ function quizOver() {
   gameOverArea.appendChild(initalsForm);
   gameOverArea.appendChild(divForForm);
   divForForm.appendChild(enterInitals);
-  divForForm.appendChild(submitInitals); //here try to append the text
+  divForForm.appendChild(submitInitals); 
 
   //enterInitals.appendChild(submitInitals)
 
