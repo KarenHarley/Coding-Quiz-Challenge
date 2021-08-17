@@ -144,36 +144,7 @@ function quizOver() {
     console.log(StoredNameAndScore);
     window.location.href = "highScores.html";
 
-    //put go back button to highScore.html
-    //add another js file
-    //1. get user initals for local storage (array)
-    //2. from what you get build what i did in creating a initals score
-    //tip:do a for loop (because its an array)
-    //3. move that go back btn to other js file
-    //4. clean localStorage
-
-    //not sure i should keep this
-    //if (inputFromUser === "") {
-    //  console.log("Empty");
-    //  return;
-    // }
-    /*
-    var scoreAndName = document.createElement("h4");
-    scoreAndName.classList.add("quizOver");
-    scoreAndName.classList.add("purpleText");
-    scoreAndName.textContent =
-      UserInputInitals +
-      " " +
-      "Score: " +
-      correctUserAnswers +
-      "/" +
-      questions.length;
-    gameOverArea.appendChild(scoreAndName);
-
-    var UserScoreAndName = localStorage.setItem("scoreAndName", scoreAndName);
-
-    console.log(localStorage.getItem(UserScoreAndName));
-    */
+    
   });
 }
 
