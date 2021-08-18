@@ -17,7 +17,7 @@ Test your basic knowledge of JavaScript with this quiz!
 ![Game questions](./pics/questions.png)
 
 3. Enter your initials
-   After completing the quiz you are able to write your initials and store your score.
+   After completing the quiz you are able to write your initials and store your score in the highscore section.
 4. Try again
    Not happy with your score? Click the Go Back button and try again!
 
