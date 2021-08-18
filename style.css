@@ -61,6 +61,7 @@ body {
 .quizOver {
   display: flex;
   justify-content: center;
+  border-radius: 7px;
 }
 .purpleText {
   background-color: rgb(198, 187, 208);
