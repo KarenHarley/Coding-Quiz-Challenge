@@ -71,6 +71,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(64, 13, 111);
   border-radius: 7px;
+  margin: 20px;
 }
 .quizOverText {
   font-size: 40px;
@@ -88,6 +89,10 @@ body {
   margin: 5px;
 }
 .divForm {
+  display: flex;
+  justify-content: center;
+}
+#highScoreHeader{
   display: flex;
   justify-content: center;
 }
