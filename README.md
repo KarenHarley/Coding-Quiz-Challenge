@@ -39,5 +39,5 @@ https://karenharley.github.io/Coding-Quiz-Challenge/
 
 ## Contact Info 
 
-karen.pretzel.365@gmail.com
+KarenHarley88@gmail.com
 
