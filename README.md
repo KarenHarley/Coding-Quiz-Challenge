@@ -2,7 +2,7 @@
 
 ## JavaScript Quiz
 
-Test your basic knowledge of JavaScript with this quiz!
+Test your basic knowledge of JavaScript with this quiz!!
 
 ### How it works:
 
