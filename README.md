@@ -2,7 +2,7 @@
 
 ## JavaScript Quiz
 
-Test your basic knowledge of JavaScript with this quiz!!
+Test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to see how much you really know about the programing language Javascript
 
 ### How it works:
 
