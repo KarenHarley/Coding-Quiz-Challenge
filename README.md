@@ -2,7 +2,7 @@
 
 ## JavaScript Quiz
 
-Test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to see how much you really know about the programing language Javascript
+Test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to see how much you really know about the programing language Javascript.
 
 ### How it works:
 
@@ -39,5 +39,5 @@ https://karenharley.github.io/Coding-Quiz-Challenge/
 
 ## Contact Info 
 
-KarenHarley88@gmail.com
+Email: KarenHarley88@gmail.com
 
