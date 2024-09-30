@@ -2,7 +2,7 @@
 
 ## JavaScript Quiz
 
-Using this application, test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to see how much you really know about the programing language Javascript.
+Using this application, test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to confirm how much you really know about the programing language Javascript.
 
 ### How it works:
 
@@ -12,14 +12,14 @@ Using this application, test your basic knowledge of JavaScript with this small 
 ![Game intro](./pics/into.png)
 
 2. Answer the questions
-   If incorrect, your score will be affected but you will also lose 10 seconds.
+   If incorrect, your score will be affected and you will also lose 10 seconds.
 
 ![Game questions](./pics/questions.png)
 
 3. Enter your initials
-   After completing the quiz you are able to write your initials and store your score in the highscore section.
+   After completing the quiz you are able to write your initials and save your score in the highscore section.
 4. Try again
-   Not happy with your score? Click the Go Back button and try again!
+   Not happy with your score? Click the "Go Back" button and try again!
 
 # Technologies used
 
