@@ -2,7 +2,7 @@
 
 ## JavaScript Quiz
 
-Using this application, test your basic knowledge of JavaScript with this small quiz!! In just 75 seconds you will have the opportunity to confirm how much you really know about the programing language Javascript.
+With this application, you can challenge your fundamental knowledge of JavaScript through an engaging, timed quiz. In just 75 seconds, put your skills to the test and discover how well you truly understand the JavaScript programming language.
 
 ### How it works:
 
