@@ -4,6 +4,10 @@
 
 With this application, you can challenge your fundamental knowledge of JavaScript through an engaging, timed quiz. In just 75 seconds, put your skills to the test and discover how well you truly understand the JavaScript programming language.
 
+## Table of Contents:
+
+- [How it works](#how-it-works)
+  
 ### How it works:
 
 1. Press start Quiz
