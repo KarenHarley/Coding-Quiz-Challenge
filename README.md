@@ -7,6 +7,7 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 ## Table of Contents:
 
 - [How it works](#how-it-works)
+- [Tecnologies](#tecnologies-used)
   
 ### How it works:
 
