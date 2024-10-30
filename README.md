@@ -9,6 +9,7 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 - [How it works](#how-it-works)
 - [Tecnologies](#tecnologies-used)
 - [Website Link](#links)
+- [Contact Info](#contact-info)
   
 ### How it works:
 
