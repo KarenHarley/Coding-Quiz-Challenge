@@ -13,19 +13,19 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
   
 ### How it works:
 
-1. Press start Quiz
+#### 1. Press start Quiz
    When quiz has begun, you will have 75 seconds to complete it.
 
 ![Game intro](./pics/into.png)
 
-2. Answer the questions
+#### 2. Answer the questions
    If incorrect, your score will be affected and you will also lose 10 seconds.
 
 ![Game questions](./pics/questions.png)
 
-3. Enter your initials
+#### 3. Enter your initials
    After completing the quiz you are able to write your initials and save your score in the highscore section.
-4. Try again
+#### 4. Try again
    Not happy with your score? Click the "Go Back" button and try again!
 
 # Technologies used
