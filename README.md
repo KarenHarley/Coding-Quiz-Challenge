@@ -44,7 +44,11 @@ https://github.com/KarenHarley/Coding-Quiz-Challenge
 
 https://karenharley.github.io/Coding-Quiz-Challenge/
 
-## Contact Info 
+# License
+
+The license used for this project: MIT
+
+# Contact Info 
 
 Email: KarenHarley88@gmail.com
 
