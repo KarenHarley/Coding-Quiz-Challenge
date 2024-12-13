@@ -29,13 +29,13 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 #### 4. Try again
    Not happy with your score? Click the "Go Back" button and try again!
 
-## Technologies used
+### Technologies used
 
 1. JavaScript
 2. CSS
 3. HTML
 
-## Links:
+### Links:
 
 #### Github
 
@@ -45,11 +45,11 @@ https://github.com/KarenHarley/Coding-Quiz-Challenge
 
 https://karenharley.github.io/Coding-Quiz-Challenge/
 
-## License
+### License
 
 The license used for this project: MIT
 
-## Contact Info 
+### Contact Info 
 
 Email: KarenHarley88@gmail.com
 
