@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 
-## JavaScript Quiz
+# JavaScript Quiz
 
 With this application, you can challenge your fundamental knowledge of JavaScript through an engaging, timed quiz. In just 75 seconds, put your skills to the test and discover how well you truly understand the JavaScript programming language.
 
