@@ -39,11 +39,11 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 
 #### - Github
 
-https://github.com/KarenHarley/Coding-Quiz-Challenge
+`https://github.com/KarenHarley/Coding-Quiz-Challenge`
 
 #### - Website
 
-https://karenharley.github.io/Coding-Quiz-Challenge/
+`https://karenharley.github.io/Coding-Quiz-Challenge/`
 
 ### License
 
