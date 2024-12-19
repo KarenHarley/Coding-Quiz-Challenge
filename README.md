@@ -12,7 +12,7 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 - [License](#license)
 - [Contact Info](#contact-info)
   
-### How it works:
+## How it works:
 
 #### 1. Press start Quiz
    When quiz has begun, you will have 75 seconds to complete it.
@@ -29,13 +29,13 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 #### 4. Try again
    Not happy with your score? Click the "Go Back" button and try again!
 
-### Technologies used
+## Technologies used
 
 1. JavaScript
 2. CSS
 3. HTML
 
-### Links:
+## Links:
 
 #### - Github
 
@@ -45,7 +45,7 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 
 `https://karenharley.github.io/Coding-Quiz-Challenge/`
 
-### License
+## License
 
 The license used for this project: MIT
 
