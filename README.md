@@ -37,11 +37,11 @@ With this application, you can challenge your fundamental knowledge of JavaScrip
 
 ## Links:
 
-#### - Github
+#### Github:
 
 `https://github.com/KarenHarley/Coding-Quiz-Challenge`
 
-#### - Website
+#### Website:
 
 `https://karenharley.github.io/Coding-Quiz-Challenge/`
 
